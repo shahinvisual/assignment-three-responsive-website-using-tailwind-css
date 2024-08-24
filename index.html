@@ -15,7 +15,7 @@
 
     <!-- Tailwind Css CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
+    <!-- <script>
         tailwind.config = {
           theme: {
             extend: {
@@ -25,10 +25,34 @@
             }
           }
         }
-      </script>
+      </script> -->
 </head>
 <body>
-    <header>
+    <header class="">
+        <!-- Navbar -->
+         <nav class="flex justify-around container mx-auto py-5 items-center">
+            <!-- logo -->
+             <div class="flex gap-2">
+                <div class="bg-[#ABEF5F] rounded-full py-1 px-2">
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
+                <h2 class="text-[#212121] font-bold text-2xl">Rinterio</h2>
+             </div>
+             <!-- Home -->
+              <div class="">
+                <a class="px-5" href="">Home</a>
+                <a class="px-5" href="">Services</a>
+                <a class="px-5" href="">Portfolio</a>
+                <a class="px-5" href="">Blogs</a>
+                <a class="px-5" href="">Contact Us</a>
+              </div>
+              <!-- Booking -->
+               <div class="flex">
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><i class="fa-solid fa-cart-shopping"></i></div>
+                <div><button>Book Consult <i class="fa-solid fa-arrow-right"></i></button></div>
+               </div>
+         </nav>
 
     </header>
     <main>
