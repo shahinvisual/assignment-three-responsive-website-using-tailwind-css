@@ -28,7 +28,7 @@
       </script> -->
 </head>
 <body>
-    <header class="">
+    <header class="bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF]">
         <!-- Navbar -->
          <nav class="flex justify-around container mx-auto py-5 items-center">
             <!-- logo -->
@@ -39,20 +39,42 @@
                 <h2 class="text-[#212121] font-bold text-2xl">Rinterio</h2>
              </div>
              <!-- Home -->
-              <div class="">
-                <a class="px-5" href="">Home</a>
-                <a class="px-5" href="">Services</a>
+              <div class="text-base text-[#737373]">
+                <a class="px-5 font-bold text-[#494949]" href="">Home</a>
+                <a class="px-5 " href="">Services</a>
                 <a class="px-5" href="">Portfolio</a>
                 <a class="px-5" href="">Blogs</a>
                 <a class="px-5" href="">Contact Us</a>
               </div>
               <!-- Booking -->
-               <div class="flex">
-                <div><i class="fa-solid fa-magnifying-glass"></i></div>
-                <div><i class="fa-solid fa-cart-shopping"></i></div>
-                <div><button>Book Consult <i class="fa-solid fa-arrow-right"></i></button></div>
+               <div class="flex items-center justify-center gap-4">
+                <div class="border border-[#E9E9E9] bg-[#ffffff] rounded-full w-8 h-8 flex items-center justify-center" ><i class="fa-solid fa-magnifying-glass text-[#737373]"></i></div>
+                <div class="border border-[#E9E9E9] bg-[#ffffff] rounded-full w-8 h-8 flex justify-center items-center"><i class="fa-solid fa-cart-shopping text-[#737373]"></i></div>
+                <div class="flex bg-[#ABEF5F] px-5 py-2 rounded-3xl gap-2">
+                  <button class="text-[#1C1C1C] font-bold">Book Consult</button>
+                  <div class="bg-[#1C1C1C] rounded-full py-1 px-2"><i class="fa-solid fa-arrow-right text-white -rotate-45"></i></div>
+                </div>
                </div>
          </nav>
+
+
+
+         <!-- Banner Section -->
+          <div class="border border-cyan-500 container mx-auto space-y-4">
+            <!-- Img Section -->
+            
+              <img class="mx-auto" src="./assets/banner.png" alt="">
+            
+            <!-- Main Title & Description Section -->
+            <div class="text-center space-y-4">
+              <h1 class="font-extrabold text-5xl text-[#212121]">A barn house of this design has a <br> striking appearance</h1>
+              <p class="text-sm text-[#494949] font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+              <div class="flex bg-[#d0ff9ad9] px-5 py-2 rounded-3xl gap-2 w-max mx-auto">
+                <button class="text-[#1C1C1C] font-bold">View Details</button>
+                <div class="bg-[#ABEF5F] rounded-full py-1 px-2"><i class="fa-solid fa-arrow-right text-white -rotate-45"></i></div>
+              </div>
+            </div>
+          </div>
 
     </header>
     <main>
